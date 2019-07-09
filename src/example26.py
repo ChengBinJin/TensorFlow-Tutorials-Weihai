@@ -52,7 +52,7 @@ def fc_layer(x, output_dim, name, is_active=True):
             return output
 
 def print_activation(t):
-    print("{}: \t{}".format(t.op.name, t.get_shape().as_list()))
+    print("{}: \t\t{}".format(t.op.name, t.get_shape().as_list()))
 
 ##########################################################################################
 # Initialize number of epoches and batch size
