@@ -1,1 +1,3 @@
-src/data/CIFAR-10
+src/data/CIFAR-10/
+src/.idea/
+src/__pycache__/

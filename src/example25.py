@@ -5,7 +5,8 @@ import cifar10
 from cifar10 import img_shape, num_classes, img_size_flat
 
 # Load CIFAR-10 data
-cifar10.maybe_download_and_extract('./data/CIFAR-10/')
+cifar10.data_path = "./data/CIFAR-10"
+cifar10.maybe_download_and_extract()
 
 class_names = cifar10.load_class_names()
 print("Number of classes: {}".format(num_classes))
